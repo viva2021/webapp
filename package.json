@@ -1,0 +1,30 @@
+{
+  "name": "slavaapp",
+  "version": "1.0.0",
+  "description": "Viacheslav Ivanenko application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viva2021/webapp.git"
+  },
+  "author": "Viacheslav Ivanenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva2021/webapp/issues"
+  },
+  "homepage": "https://github.com/viva2021/webapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12"
+  },
+  "keywords": []
+}
